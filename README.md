@@ -39,7 +39,7 @@
 - colum_5 = np.array([7, 1, 3, 1, 0])
 
 # Инструкция запуска :
-## интерпритатор Python :
+## Python/Python3 :
 Необходимое ПО: python 3.*, git.
 ```console
 example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
