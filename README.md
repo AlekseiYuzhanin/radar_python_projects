@@ -46,9 +46,20 @@ example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_proje
 example@user:~/$ cd radar_python_projects
 ```
 Для первого задания:
-example@user:~/radar_first_mongo_project$ npm install
-example@user:~/radar_first_mongo_project$ npx webpack
-example@user:~/radar_first_mongo_project$ npm start
+```console
+example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
+example@user:~/$ cd radar_python_projects
+```
+Для второго задания:
+```console
+example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
+example@user:~/$ cd radar_python_projects
+```
+Для третьего задания:
+```console
+example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
+example@user:~/$ cd radar_python_projects
+```
 
 Примечание: для использования локальной сборки, необходимо заменить данные в .env файле, на нужные вам для подключения.
 ## Docker :
