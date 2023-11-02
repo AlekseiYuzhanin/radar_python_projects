@@ -47,24 +47,29 @@ example@user:~/$ cd radar_python_projects
 ```
 Для первого задания:
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
-example@user:~/$ cd radar_python_projects
+example@user:~/radar_python_projects$ cd first_project
+example@user:~/radar_python_projects/first_project$ python main.py
+// Другой вариант
+example@user:~/radar_python_projects/first_project$ python3 main.py
 ```
 Для второго задания:
 ```console
-example@user:~/$ cd second_project
-example@user:~/$ python main.py
-example@user:~/$ Или
-example@user:~/$ python3 main.py
+example@user:~/radar_python_projects$ cd second_project
+example@user:~radar_python_projects/second_project/$ python main.py
+// Другой вариант
+example@user:~/radar_python_projects/second_project$ python3 main.py
 ```
 Для третьего задания:
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
-example@user:~/$ cd radar_python_projects
+example@user:~/radar_python_projects$ pip install numpy
+// Другой вариант
+example@user:~/radar_python_projects$ apt-get install python-numpy
+example@user:~/radar_python_projects$ cd third_project
+example@user:~/radar_python_projects/third_project$ python main.py
+// Другой вариант
+example@user:~/radar_python_projects/third_project$ python3 main.py
 ```
-
-Примечание: для использования локальной сборки, необходимо заменить данные в .env файле, на нужные вам для подключения.
-## Docker :
+## Venv :
 Необходимое ПО: Docker, docker-compose, git.
 ```console
 example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_first_mongo_project
