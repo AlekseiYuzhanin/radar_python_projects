@@ -52,8 +52,10 @@ example@user:~/$ cd radar_python_projects
 ```
 Для второго задания:
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_python_projects
-example@user:~/$ cd radar_python_projects
+example@user:~/$ cd second_project
+example@user:~/$ python main.py
+example@user:~/$ Или
+example@user:~/$ python3 main.py
 ```
 Для третьего задания:
 ```console
