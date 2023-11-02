@@ -48,26 +48,40 @@ example@user:~/$ cd radar_python_projects
 Для первого задания:
 ```console
 example@user:~/radar_python_projects$ cd first_project
+
 example@user:~/radar_python_projects/first_project$ python main.py
+
 // Другой вариант
+
 example@user:~/radar_python_projects/first_project$ python3 main.py
 ```
 Для второго задания:
 ```console
 example@user:~/radar_python_projects$ cd second_project
+
 example@user:~radar_python_projects/second_project/$ python main.py
+
 // Другой вариант
+
 example@user:~/radar_python_projects/second_project$ python3 main.py
+
 ```
 Для третьего задания:
 ```console
 example@user:~/radar_python_projects$ pip install numpy
+
 // Другой вариант
+
 example@user:~/radar_python_projects$ apt-get install python-numpy
+
 example@user:~/radar_python_projects$ cd third_project
+
 example@user:~/radar_python_projects/third_project$ python main.py
+
 // Другой вариант
+
 example@user:~/radar_python_projects/third_project$ python3 main.py
+
 ```
 ## Venv :
 Необходимое ПО: Docker, docker-compose, git.
