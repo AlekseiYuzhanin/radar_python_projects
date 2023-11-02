@@ -84,10 +84,12 @@ example@user:~/radar_python_projects/third_project$ python3 main.py
 
 ```
 ## Venv :
-Необходимое ПО: Docker, docker-compose, git.
+Необходимые библиотеки: venv.
+Для запуска приложения таким образом нужно установить Python. Venv необходимо для запуска третьего проекта, так как содержит в себе стороннюю библиотеку.
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_first_mongo_project
-example@user:~/$ cd radar_first_mongo_project
-example@user:~/radar_first_mongo_project$ docker-compose up --build
+example@user:~/$ cd radar_python_projects
+example@user:~/radar_python_projects$ python -m venv venv
+example@user:~/radar_python_projects$ source ./venv/bin/activate
+(venv)example@user:~/radar_python_projects$ pip freeze > requirenments.txt
 ```
-
+Далее необходимо проделать те же шаги, что и при запуске через обычный Python.
